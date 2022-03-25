@@ -9,20 +9,21 @@ class Program
     public static void Main(string[] args)
     {
         // This function accepts user input
-        int length;
-        int height;
+        int Base;
+        int Height;
 
         Console.WriteLine("This program calculates the area of a triangle.");
         Console.WriteLine("");
-        Console.Write("Enter the length (mm): ");
-        length = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Enter height (mm): ");
-        height = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter the base (cm): ");
+        Base = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter the height (cm): ");
+        Height = Convert.ToInt32(Console.ReadLine());
 
+        Double Area = (Base * Height) /2 ;
 
         Console.WriteLine("");
-        Console.WriteLine("Area:  ");
-
+        Console.Write("Area of the triangle = " + Area + " cm²");
+        Console.ReadKey();
         Console.WriteLine("\nDone.");
     }
 }
