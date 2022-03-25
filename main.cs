@@ -1,7 +1,7 @@
 // Created by: Kaitlyn Ip
 // Created on: Mar 2022
 //
-// This program finds the area and perimeter of a triangle
+// This program finds the area of a triangle
 
 using System;
 
